@@ -113,16 +113,13 @@ crossorigin=""></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
 
 <!-- Leaflet-Choropleth JavaScript -->
-<script type="text/javascript" src="static/js/choropleth.js"></script>
+<script src="{{ url_for('static', filename='js/choropleth.js') }}"></script>
 
 
 <!-- API key -->
-<script type="text/javascript" src="static/js/config.js"></script>
-<script type="text/javascript" src="static/js/app.js"></script>
-<!-- <script type="text/javascript" src="static/app2.js"></script> -->
-<!-- <script type="text/javascript" src="static/js/bar.js"></script> -->
-<!-- <script type="text/javascript" src="static/js/pie.js"></script>
-<script type="text/javascript" src="static/js/flo_map.js"></script> -->
+<!-- <script type="text/javascript" src="static/js/config.js"></script> -->
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
 
 </body>
 </html>
