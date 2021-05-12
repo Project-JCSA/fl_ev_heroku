@@ -2,7 +2,4 @@ Flask==2.0.0
 Jinja2==3.0.0
 numpy==1.19.5
 pandas==1.0.5
-python-dateutil==2.8.1
-sqlite==3.33.0
-Werkzeug==2.0.0
 gunicorn==20.1.0
