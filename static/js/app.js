@@ -1,5 +1,5 @@
-let dataLink = "http://127.0.0.1:5000/data"
-let stationLink = "http://127.0.0.1:5000/stations"
+let dataLink = "https://fl-electric-vehicles.herokuapp.com//data"
+let stationLink = "https://fl-electric-vehicles.herokuapp.com//stations"
 
 
 function init(){
