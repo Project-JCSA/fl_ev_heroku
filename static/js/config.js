@@ -1,3 +1,3 @@
 // API key
-const API_KEY = Sprocess.env.mapbox;
+const API_KEY = process.env.mapbox;
 
