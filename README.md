@@ -26,7 +26,7 @@ This project looks at the increase in FL EV registrations in 2019-2020 and poten
     * Use Jupyter Notebook to clean data and run preliminary analysis and validation
     * Once clean, load data into a SQLite database
     * Move code into Python so it is easily rerun from the comand line
-    <img src="./Images/ERD.png" width="500">
+    <img src=".static/images/ERD.png" width="500">
 
 4. Access Data
     * Create a Flask app; run sql queries to pull data from SQLite; and convert to a json variable
@@ -50,3 +50,12 @@ This project looks at the increase in FL EV registrations in 2019-2020 and poten
     * Deploy app to Heroku
 
 ## Final Analysis
+
+Our analysis shows that counties with more EV registrations have clusters of EV charging stations. However, there are some counties without charging stations that still have a handful of EV registrations.  
+<img src=".static/images/FL_EV_Map_2020.png" width="500">
+
+The most popular EV models registered in Florida, accounting for 60% of the market share, are Tesla's Model 3, Model S, & Model X.  
+<img src=".static/images/FL_EV_Models_2020.png" width="500">
+
+Miami-Dade, Broward, & Palm Beach have the most EV Registrations, however, they are also some of the most populus counties. A suggested future enhancment to this project would be to look at the EV Registrations to Population ratio. This would allow for a better comparison accross counties with large population disparities.  
+<img src=".static/images/FL_Population_2020.png" width="500">
